@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"vite\" \"nodemon src/server.js\"",
-    "start": "node src/server.js",
-    "build": "tsc && vite build",
+   "start": "node src/server.js",
+   "build": "vite build",
     "lint": "eslint ."
   },
   "dependencies": {
